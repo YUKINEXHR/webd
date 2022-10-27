@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang=""ja>
+ <head>
+  <meta charset="UTF-8">
+  <title>こんにちは</title>
+ </head>
+ <body>
+  <h1>株式会社〇〇求人要綱</h1>
+   <h3>WEBエンジニア</h3>
+    <table border="3" rules="all">
+     <tr>
+      <th>仕事内容</th>
+      <td>WEBサイトのシステム開発</td>
+     </tr>
+     <tr>
+      <th>雇用形態</th>
+      <td>正社員※試用期間3か月あり</td>
+     </tr>
+     <tr>
+      <th>給与</th>
+      <td>400万～（経験次第）</td>
+     </tr>
+     <tr>
+      <th>昇級</th>
+      <td>年1回</td>
+     </tr>
+     <tr>
+      <th>賞与</th>
+      <td>年2回</td>
+     </tr>
+    </table>
+    <h3>秘書・事務スタッフ</h3>
+    <table border="3" rules="all">
+     <tr>
+      <th>仕事内容</th>
+      <td>秘書・事務業務全般</td>
+     </tr>
+     <tr>
+      <th>雇用形態</th>
+      <td>正社員※試用期間3か月あり</td>
+     </tr>
+     <tr>
+      <th>給与</th>
+      <td>月給:20万6800円以上</td>
+     </tr>
+     <tr>
+      <th>昇級</th>
+      <td>年1回</td>
+     </tr>
+     <tr>
+      <th>賞与</th>
+      <td>年2回</td>
+     </tr>
+    </table>
+     <br>
+     <hr>
+    <h2>応募フォーム</h2>
+     <form action="mailform.php" method="post">
+
+    <h3>お名前</h3>
+     <p>
+      <input name="name" type="text">
+     </p>
+
+     <h3>応募職種
+      <p>
+       <select name="応募職種">
+        <option value="WEBエンジニア">WEBエンジニア</option>
+        <option value="秘書・事務スタッフ">秘書・事務スタッフ</option>
+       </select>
+      </p>
+     </h3>
+
+     <h3>性別</h3>
+      <p>
+       <input name="sex" type="radio" value="男"> 男
+       <input name="sex" type="radio" value="女"> 女
+      </p>
+      <h3>メールアドレス</h3>
+      <p>
+       <input name="mailform" type="text">
+      </p>
+
+      <h3>志望動機</h3>
+      <p>
+       <textarea name="志望動機" cols="50" rows="5"></textarea>
+      </p>
+
+      <p>
+       <input name="submit" type="submit" value="確認画面へ">
+      </p>
+     </form>
+ </body>
+</html>
